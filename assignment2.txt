@@ -1,0 +1,40 @@
+Question 1
+__________
+
+    What is the value of clothes[0] and why?
+    const clothes = ['jacket', 't-shirt'];
+    clothes.length = 0;
+    console.log(clothes[0]);
+
+  OUTPUT:
+ ________
+   
+   jacket
+
+
+ EXPLANATION: 
+ ___________
+    
+  array is created with clothes as a array name where the index starts from 0 in a given array which specifes in line as(clothes.length = 0)
+  and the element is stored in array as 
+  clothes[0] = jacket and clothes[1] = t-shirt; so the output is jacket.
+
+
+
+Question 2
+___________
+
+Write a Javascript program to find the sum of all elements of a given array?
+
+
+CODE:
+_____
+
+  var array = [1, 2, 3, 4, 5, 6],s = 0,p = 1, i;
+  for (i = 0; i < array.length; i++) 
+   {
+      s += array[i];    
+   }
+  console.log('Sum : '+s); 
+
+  
